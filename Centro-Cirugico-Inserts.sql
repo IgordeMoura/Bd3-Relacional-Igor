@@ -44,13 +44,13 @@ INSERT INTO TBL_MEDICO(cod_especialidade, nome_medico, email_medico, telefone_me
 VALUES (1, 'JUNIOR ALBERTO', 'j.alberto@gmail.com', '1234-5678', '7894-5612');
 
 #INSERÇÃO DE DADOS NA TABELA DE SALAS.
-INSERT INTO tbl_sala(numero_sala, cod_especialidade)
+INSERT INTO tbl_sala(nro_sala, cod_especialidade)
 VALUES ('SALA 01', 1);
 
-INSERT INTO tbl_sala(numero_sala, cod_especialidade)
+INSERT INTO tbl_sala(nro_sala, cod_especialidade)
 VALUES ('SALA 02', 2);
 
-INSERT INTO tbl_sala(numero_sala, cod_especialidade)
+INSERT INTO tbl_sala(nro_sala, cod_especialidade)
 VALUES ('SALA 03', 3);
 
 #INSERÇÃO DE DADOS NA TABELA DE AGENDAMENTOS.

@@ -1,3 +1,4 @@
+drop database centro_cirurgico_bd;
 create database centro_cirurgico_bd;
 
 use centro_cirurgico_bd;
