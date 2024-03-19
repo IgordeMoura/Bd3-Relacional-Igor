@@ -21,6 +21,17 @@ nome_responsavel varchar (500) not null,
 telefone_responsavel varchar (11) not null
 );
 
+create table tbl_paciente_bkp(
+cod_paciente int unsigned auto_increment primary key,
+nome_paciente varchar (500) not null,
+telefone_paciente varchar (10),
+celular_paciente varchar (11) not null,
+email_paciente varchar (100) not null,
+nome_responsavel varchar (500) not null,
+telefone_responsavel varchar (11) not null,
+date_delete datetime 
+);
+
 create table tbl_medico(
 cod_medico int unsigned auto_increment primary key,
 cod_especialidade int unsigned not null,
